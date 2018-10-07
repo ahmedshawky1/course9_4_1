@@ -1,0 +1,55 @@
+---
+title: "Basic Data Exploratory App"
+author: "AhmedShawky"
+date: "May 11, 2018"
+output: ioslides_presentation
+---
+
+
+
+## OverView
+
+- This Application is used to do the Basic Data Explortery for DataSets
+
+- There are 4 Data Sets predefined  , but you can add more
+
+## Application I/O
+
+Input:
+- Choose DataSet 
+
+Output:
+
+- Names of DataSet Col  
+- dataset dimension  
+- str for the dataset  
+- summary for the dataset
+- 5 rows of the dataset
+- plot variable vs each others
+- histgram for each variable
+- plot missing values -if any-
+- plot density of variable
+- correlation between variable
+
+## R Code for the output Data
+```{r eval=FALSE}
+dim(ds)
+names(ds)
+str(ds)
+summary(ds)
+head(ds)
+plot(ds)
+plot_histogram(ds)
+plot_missing(ds)
+plot_density(ds)
+plot_correlation(ds)
+
+```
+
+
+## Source Code 
+Github source code link 
+
+https://github.com/ahmedshawky1/Basic-Data-Exploratory-App/upload
+
+
